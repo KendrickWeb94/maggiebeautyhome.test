@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Inter"
+}
+
+body {
+  font-family: "Inter"
+}
+
+@layer components {
+  .smooth {
+    @apply transition-all delay-500 duration-500 ease-in-out;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+}
+
+
+
+.inter-tight-500 {
+  font-family: "Inter Tight";
+  font-weight: 500;
+}
+
+.inter-tight-600 {
+  font-family: "Inter Tight";
+  font-weight: 600;
+}
+
+.inter-tight-700 {
+  font-family: "Inter Tight";
+  font-weight: 700;
+}
+
+.inter-tight-800 {
+  font-family: "Inter Tight";
+  font-weight: 800;
+}
+
+.inter-tight-900 {
+  font-family: "Inter Tight";
+  font-weight: 900;
+}
+
+.inter-300 {
+  font-family: "Inter";
+  font-weight: 300;
+}
+
+.inter-400 {
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.inter-500 {
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.inter-600 {
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+/* Optional: If you want to include font-style as well */
+
+.inter-tight-500-italic {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-style: italic;
+}
+
+.inter-tight-600-italic {
+  font-family: "Inter Tight";
+  font-weight: 600;
+  font-style: italic;
+}
+
+.container-custom {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 92%;
+  height: auto;
+}
+
+
+.grid-cat {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.grid-cat-3 {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  display: grid;
+}
+
+.grid-cat-5 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  display: grid;
+}
+
+.grid-cat-6 {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  display: grid;
+}
+
+.grid-cat-map {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 3.1rem;
+  display: grid;
+}
+
+.grid-cat-2 {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  display: grid;
+}
+
+.grid-cat-btn {
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  gap: 1rem;
+}
+
+.grid-cat-time {
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  gap: 3rem;
+}
+
+.grid-cat-footer {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  row-gap: 3rem;
+}
+
+.z-1 {
+  z-index: -1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.z-lg {
+  z-index: 99999999;
+}
+
+.z-xl {
+  z-index: 999999999999;
+}
+
+.z-2xl {
+  z-index: 9999999999999999;
+}
